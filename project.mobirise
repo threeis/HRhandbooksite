@@ -1,0 +1,690 @@
+{
+  "settings": {
+    "name": "The HR Handbook",
+    "currentPage": "index.html",
+    "theme": {
+      "name": "colorm",
+      "title": "ColorM",
+      "styling": {
+        "primaryColor": "#f39c12",
+        "buttonsColor": "#000000",
+        "secondaryColor": "#9b59b6",
+        "successColor": "#2ecc71",
+        "infoColor": "#3498db",
+        "warningColor": "#f1c40f",
+        "dangerColor": "#e74c3c",
+        "titleFont": "Arvo",
+        "subtitleFont": "Montserrat",
+        "textFont": "Open Sans",
+        "isRoundedButtons": true,
+        "isAnimatedOnScroll": true,
+        "isScrollToTopButton": true
+      },
+      "additionalSetColors": []
+    },
+    "versionFirst": "4.5.2",
+    "uniqCompNum": 13,
+    "versionPublish": "4.5.2",
+    "robotsText": "User-agent: *\nDisallow: /cgi-bin\n\nHR Handbook, Employee Handbook, HR, Human Resources, HR Professionals, legal, \n",
+    "robotsSwitcher": "on",
+    "siteUrl": "",
+    "sitemapSwitcherAuto": "on",
+    "favicon": "",
+    "noImageResize": "",
+    "google-analytics": "",
+    "cookiesAlert": ""
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "Home",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_styles": {
+            ".display-1": {
+              "font-weight": "700"
+            },
+            ".subtitle": {
+              "color": "#fff"
+            },
+            ".mbr-section-subtitle.lead": {
+              "text-transform": "uppercase",
+              "margin-bottom": "0"
+            },
+            ".testimonial-text, .testimonial-author, .testimonial-position": {
+              "color": "#565555"
+            },
+            ".testimonial-position": {
+              "font-style": "italic",
+              "color": "#666666"
+            }
+          },
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false,
+            "showTestimonial": true,
+            "showImage": true,
+            "showArrow": true,
+            "imageSize": 90,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/header/03.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#f39c12",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=HnPYeBJ9JCc"
+            },
+            "overlay": true,
+            "overlayColor": "#f1c40f",
+            "overlayOpacity": 0.9
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/hrhandbookcover-cut-959x201.png",
+              "link": "https://mobirise.com",
+              "alt": "",
+              "title": ""
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-header4",
+              "link": "",
+              "size": 0
+            }
+          },
+          "arrowDown": "@PROJECT_PATH@/assets/images/arrowdown.png",
+          "title": "The HR Handbook",
+          "text": "Every Organisation Needs",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-danger btn-lg\" href=\"https://mobirise.com\">download it</a>",
+          "media1": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/face1.jpg",
+              "link": "https://mobirise.com",
+              "active": true
+            }
+          },
+          "media2": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-header8",
+              "name": "paperclip",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "@primaryColor",
+              "family": "et-line"
+            }
+          },
+          "comment": "Ever since my company launched our handbook, life has literally been easier for everyone at work!&nbsp;",
+          "author": "Mary Tully-Tan,",
+          "position": "HR Professional",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header8",
+          "_anchor": "header8-1"
+        },
+        {
+          "_styles": {
+            ".mbr-section__container .mbr-section-title": {
+              "color": "#fff"
+            },
+            ".mbr-section__container .mbr-section-subtitle": {
+              "color": "#000000"
+            }
+          },
+          "_params": {
+            "showTitle": true,
+            "showSubtitle": true,
+            "firstType": "default",
+            "secondType": "popular",
+            "thirdType": "default",
+            "fourthType": "hidden",
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "showButtons": true,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-1620x1080.jpg",
+            "parallax": false,
+            "bgColorRadio": false,
+            "bgColor": "#ecf0f1",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#3498db",
+            "overlayOpacity": 0.5
+          },
+          "title": "Our HR Handbook Services!",
+          "subtitle": "Our experienced HR experts will create the handbook that best represents your organisation. <br>No hassle, minimal fuss with effective results that you can rely on!<br>To find out more about what we can do, &nbsp;contact us!",
+          "title1": "Buy a Ready-Made HR Handbook",
+          "title2": "Fully-Customise Your Own Handbook",
+          "title3": "Consulting Services",
+          "title4": "ULTIMATE PLAN",
+          "label1": "POPULAR",
+          "label2": "POPULAR",
+          "label3": "POPULAR",
+          "label4": "POPULAR",
+          "currency1": "$",
+          "currency2": "$",
+          "currency3": "$",
+          "currency4": "$",
+          "price1": "1000",
+          "price2": "2500",
+          "price3": "250",
+          "price4": "190",
+          "period1": "per copy",
+          "period2": "and up",
+          "period3": "/hour",
+          "period4": "/mo",
+          "list1": "<ul class=\"list-group list-group-flush\"><li class=\"list-group-item\"><b>Off-the-Shelf</b> Handbooks</li><li class=\"list-group-item\">Choose the&nbsp;<b>best samples</b> from existing industries</li><li class=\"list-group-item\">Minimal fuss. <b>Use it straight away</b></li><li class=\"list-group-item\">Up to <b>80</b> pages!</li></ul>",
+          "list2": "<ul class=\"list-group list-group-flush\"><li class=\"list-group-item\"><b>Fully-tailored</b> just for your organisation</li><li class=\"list-group-item\">Select the sections based on your <b>requirements</b></li><li class=\"list-group-item\"><b>Custom designs</b>, pages and layouts</li><li class=\"list-group-item\">Fully <b>Digital</b>, <b>Interactive</b>, <b>Portal</b> versions Available!</li></ul>",
+          "list3": "<ul class=\"list-group list-group-flush\"><li class=\"list-group-item\"><b>HR Industy</b>&nbsp;<b>Expert</b></li><li class=\"list-group-item\"><b>&nbsp;HR Director of MNC&nbsp;</b>Level of Experience</li><li class=\"list-group-item\">Provides&nbsp;<b>Training</b>, <b>Review</b> Existing Handbooks, Design <b>Solutions</b> and more!</li></ul>",
+          "list4": "<ul class=\"list-group list-group-flush\"><li class=\"list-group-item\"><b>Unlimited</b> Projects</li><li class=\"list-group-item\"><b>Unlimited</b> Images</li><li class=\"list-group-item\"><b>24/7</b> Support</li></ul>",
+          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary-outline btn-primary\">BUY NOW</a>",
+          "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary-outline btn-primary\" data-toolbar=\"-mbrBtnMove\">Contact</a>",
+          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary-outline btn-primary\" data-toolbar=\"-mbrBtnMove\">Engage us</a>",
+          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary-outline btn-primary\">BUY NOW</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "pricing-table2",
+          "_anchor": "pricing-table2-4"
+        },
+        {
+          "_styles": {},
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "showTitle": true,
+            "showButtons": true,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/09.jpg",
+            "parallax": false,
+            "bgColorRadio": false,
+            "bgColor": "#c0392b",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=HnPYeBJ9JCc"
+            },
+            "overlay": true,
+            "overlayColor": "#d35400",
+            "overlayOpacity": 0.5
+          },
+          "title": "Ready to get started?",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos quaerat omnis amet accusantium accusamus quidems?",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-black-outline\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">view Samples</a><a data-app-btn=\"true\" class=\"btn btn-danger\" href=\"https://mobirise.com\">read more</a>",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "call4",
+          "_anchor": "call4-7"
+        },
+        {
+          "_styles": {
+            ".elements-content": {
+              "padding-bottom": "50px"
+            },
+            ".mbr-section-subtitle": {
+              "letter-spacing": "2px",
+              "margin-bottom": "10px",
+              "font-weight": "700"
+            },
+            ".mbr-section-title, .tab-pane": {
+              "color": "#000"
+            }
+          },
+          "_params": {
+            "showHeader": true,
+            "showText": true,
+            "showImages": true,
+            "showTitles": true,
+            "tabs": "3",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/header/04.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#ffffff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#ecf0f1",
+            "overlayOpacity": 0.9
+          },
+          "arrowDown": "@PROJECT_PATH@/assets/images/arrowdown.png",
+          "title": "<br>Why have a HR Handbook?",
+          "text": "A HR handbook is an important communication tool between you and your employees. A well-written handbook sets forth your company policies and procedures and defines the expectations for your employees, as well as what they can expect from your company.<br>",
+          "title1": "Fast, Consistent and Acurate Corporate Information&nbsp;",
+          "title2": "Employer/ Employee Protection",
+          "title3": "Corporate Culture and Excellence",
+          "title4": "HOST ANYWHERE",
+          "title5": "IMAGE/CONTENT SLIDER",
+          "title6": "CONTACT FORMS",
+          "tabTitle": "<li class=\"nav-item\" style=\"display: block;\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab1header9-0\" aria-expanded=\"false\">TIME Savings</a></li><li class=\"nav-item\" style=\"display: block;\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab2header9-0\" aria-expanded=\"false\">Legal Protection</a></li><li class=\"nav-item\" style=\"display: block;\"><a class=\"nav-link active\" role=\"tab\" data-toggle=\"tab\" href=\"#tab3header9-0\" aria-expanded=\"true\">PERFORMANCE Increase</a></li><li class=\"nav-item\" style=\"display: none\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab4header9-0\">Awesome</a></li><li class=\"nav-item\" style=\"display: none\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab5header9-0\">Amazing</a></li><li class=\"nav-item\" style=\"display: none\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab6header9-0\">Beautiful</a></li>",
+          "media11": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/employee-handbook-cover-699x1024.jpg",
+              "class": "card-img-top",
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": ""
+            }
+          },
+          "media12": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/mbr-1635x1080.jpg",
+              "class": "card-img-top",
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": ""
+            }
+          },
+          "media13": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/mbr-1583x1080.jpg",
+              "class": "card-img-top",
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": ""
+            }
+          },
+          "media14": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/nb4.png",
+              "class": "card-img-top",
+              "active": true
+            }
+          },
+          "media15": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/nb5.png",
+              "class": "card-img-top",
+              "active": true
+            }
+          },
+          "media16": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/nb6.png",
+              "class": "card-img-top",
+              "active": true
+            }
+          },
+          "media21": {
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-header5",
+              "linkInNewWindow": false,
+              "name": "clock",
+              "family": "MobiriseIcons",
+              "active": true,
+              "size": 0,
+              "color": "@primaryColor"
+            }
+          },
+          "media22": {
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-header5",
+              "linkInNewWindow": false,
+              "name": "protect",
+              "family": "MobiriseIcons",
+              "active": true,
+              "size": 0,
+              "color": "@primaryColor"
+            }
+          },
+          "media23": {
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-header5",
+              "linkInNewWindow": false,
+              "name": "growing-chart",
+              "family": "MobiriseIcons",
+              "active": true,
+              "size": 0,
+              "color": "@primaryColor"
+            }
+          },
+          "media24": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-header5",
+              "name": "upload",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "@primaryColor",
+              "family": "et-line"
+            }
+          },
+          "media25": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-header5",
+              "name": "genius",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "@primaryColor",
+              "family": "et-line"
+            }
+          },
+          "media26": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-header5",
+              "name": "global",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "@primaryColor",
+              "family": "et-line"
+            }
+          },
+          "text1": "New employees get quickly inducted to the corporate policies and also allows all employees to gain access to the same information. This allows employers to set forth their expectations in a comprehensible and consistent manner, in the shortest and easiest possible way!",
+          "text2": "The handbook provides important protection for your company as it can prevent misunderstandings, reinforce employer expectations, and help keep your workplace free of potential lawsuits arising from claims of discrimination, harassment, and wrongful termination.",
+          "text3": "Reinforces your corporate culture and how everyone fits in. This fosters a sense of pride and belonging, which studies show will help employees become more productive in a shorter period of time.",
+          "text4": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam, nisi, ea. Excepturi dolores, laborum ipsum soluta aliquid, ullam repellat ratione iste harum voluptatem? Alias id blanditiis, sequi possimus dolorem dolorum.",
+          "text5": "Create a responsive, touch-swipe slideshow with <a href=\"http://mobirise.com\">Mobirise bootstrap slider</a>. Add images, text, buttons to slides, set autoplay, full-screen, full-width or boxed layout. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde sunt, illo quo ipsa. Laboriosam voluptatem sunt nisi velit incidunt labore, sapiente pariatur ipsam fugiat doloremque asperiores eos ipsum, eveniet cum.",
+          "text6": "Easily add subscribe and contact forms without any server-side integration. Just link your email to form and get submissions instantly. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium id perspiciatis, sint odit error animi veniam omnis cupiditate distinctio, a quidem deleniti laborum maiores optio laudantium earum vel! Sint, rerum.",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header9",
+          "_anchor": "header9-0"
+        },
+        {
+          "_styles": {
+            ".card-block p": {
+              "font-size": "15px"
+            }
+          },
+          "_params": {
+            "showTitle": true,
+            "showSubtitle": true,
+            "showImages": true,
+            "showName": true,
+            "showBio": true,
+            "autoplay": true,
+            "timeout": 5,
+            "paddingTop": 2,
+            "paddingBottom": 1,
+            "showBullets": true,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/flight-mountains-sky-flying.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#000",
+            "overlayOpacity": 0.5,
+            "visibleSlides": "3",
+            "slides": [
+              {
+                "active": true,
+                "text": "<p>“A major turning point in the history of early philosophical science was the controversial”</p>",
+                "authorName": "John Smith",
+                "authorBio": "HR Director",
+                "media": {
+                  "image": {
+                    "src": "@PROJECT_PATH@/assets/images/face1.jpg",
+                    "class": "img-circle",
+                    "link": "https://mobirise.com",
+                    "height": 160,
+                    "width": 160,
+                    "active": true
+                  }
+                }
+              },
+              {
+                "active": false,
+                "text": "<p>“A major tturning point in the history of early philosophical science was the controversial ”</p>",
+                "authorName": "Abanoub S.",
+                "authorBio": "Employee",
+                "media": {
+                  "image": {
+                    "src": "@PROJECT_PATH@/assets/images/face2.jpg",
+                    "class": "img-circle",
+                    "link": "https://mobirise.com",
+                    "height": 160,
+                    "width": 160,
+                    "active": true
+                  }
+                }
+              },
+              {
+                "active": false,
+                "text": "<p>“A major tturning point in the history of early philosophical science was the controversial ”</p>",
+                "authorName": "Suffian A.",
+                "authorBio": "Government Department Official",
+                "media": {
+                  "image": {
+                    "src": "@PROJECT_PATH@/assets/images/face3.jpg",
+                    "class": "img-circle",
+                    "link": "https://mobirise.com",
+                    "height": 160,
+                    "width": 160,
+                    "active": true
+                  }
+                }
+              },
+              {
+                "active": false,
+                "text": "<p>\"A major tturning point in the history of early philosophical science was the controversial \"</p>",
+                "authorName": "Alex Higgins",
+                "authorBio": "USER",
+                "media": {
+                  "image": {
+                    "src": "@PROJECT_PATH@/assets/images/face4.jpg",
+                    "class": "img-circle",
+                    "link": "https://mobirise.com",
+                    "height": 160,
+                    "width": 160,
+                    "active": true
+                  }
+                }
+              }
+            ],
+            "controlBgLeft": "@PROJECT_PATH@/assets/images/left.png",
+            "controlBgRight": "@PROJECT_PATH@/assets/images/right.png"
+          },
+          "title": "What our fantastic clients say",
+          "subtitle": "Our clients can vouch for us!",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "testimonials1",
+          "_anchor": "testimonials1-5"
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "showSubtitle": true,
+            "showText": true,
+            "showButtons": false,
+            "bgCardImage": "@PROJECT_PATH@/assets/images/boy.jpg",
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/grass.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#ecf0f1",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=HnPYeBJ9JCc"
+            },
+            "overlay": true,
+            "overlayColor": "#233f5b",
+            "overlayOpacity": 0.8
+          },
+          "arrowDown": "@PROJECT_PATH@/assets/images/arrowdown.png",
+          "media": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/features/03.jpg",
+              "class": ""
+            }
+          },
+          "title": "Tham JELEV",
+          "subtitle": "Founder and Influencer at The HR Handbook&nbsp;",
+          "text": "\"As a HR practitioner of many years, I believe that the best gift and contribution I can give to the industry is to help every organisation craft and maintain their very own HR Handbook. Employers, employees and HR professionals have all expressed how it has made their processes simpler, efficient and effective!\"",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">learn more</a>",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "testimonials3",
+          "_anchor": "testimonials3-6"
+        },
+        {
+          "_styles": {
+            ".mbr-section-subtitle": {
+              "text-transform": "uppercase"
+            },
+            ".form-control-label": {}
+          },
+          "_params": {
+            "showSubtitle": true,
+            "showTitle": true,
+            "showText": true,
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/header/04.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#ecf0f1",
+            "overlay": false,
+            "overlayColor": "#ecf0f1",
+            "overlayOpacity": 0.5
+          },
+          "iconName": "<img src=\"@PROJECT_PATH@/assets/images/icon-name.png\">",
+          "iconEmail": "<img src=\"@PROJECT_PATH@/assets/images/icon-email.png\">",
+          "iconPhone": "<img src=\"@THEME_PATH@/components/_images/form/icon-phone.png\">",
+          "title": "CONTACT FORM",
+          "subtitle": "Shape your organisations future with a new or updated Hr handbook.",
+          "text": "Let us know how we can help!",
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\">CONTACT US</a>",
+          "form": {
+            "action": "aldrintee@gmail.com",
+            "alerts": {
+              "success": "Thanks for filling out form!"
+            },
+            "fields": {
+              "name": {
+                "visible": true,
+                "title": "Name",
+                "customTitle": "Name*"
+              },
+              "email": {
+                "visible": true,
+                "title": "Email",
+                "customTitle": "Email*"
+              },
+              "phone": {
+                "visible": false,
+                "title": "Phone",
+                "customTitle": "Phone"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "Message"
+              }
+            }
+          },
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "form2",
+          "_anchor": "form2-8"
+        },
+        {
+          "_styles": {
+            ".btn-social": {
+              "color": "#fff",
+              "height": "60px",
+              "width": "60px",
+              "line-height": "60px",
+              "font-size": "2rem"
+            },
+            ".mbr-section-title": {
+              "color": "#fff"
+            }
+          },
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/img-extheader7-bg.jpg",
+            "parallax": false,
+            "bgColorRadio": false,
+            "bgColor": "#fff",
+            "overlay": true,
+            "overlayColor": "#35a0c6",
+            "overlayOpacity": 0.4,
+            "facebook": true,
+            "twitter": true,
+            "google": true,
+            "vkontakte": false,
+            "odnoklassniki": false
+          },
+          "text": "SHARE THIS PAGE!",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "social-buttons1",
+          "_anchor": "social-buttons1-9"
+        },
+        {
+          "_styles": {
+            ".mbr-section-text": {
+              "color": "#fff"
+            }
+          },
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#323232",
+            "overlay": true,
+            "overlayColor": "#444444",
+            "overlayOpacity": 0.8
+          },
+          "text": "Copyright (c) 2018&nbsp;<a href=\"http://mobirise.com\">The HR Handbook People</a>&nbsp;.",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer2",
+          "_anchor": "footer2-c"
+        }
+      ]
+    }
+  }
+}
