@@ -23,8 +23,8 @@
       "additionalSetColors": []
     },
     "versionFirst": "4.5.2",
-    "uniqCompNum": 13,
-    "versionPublish": "4.5.2",
+    "uniqCompNum": 15,
+    "versionPublish": "4.6.3",
     "robotsText": "User-agent: *\nDisallow: /cgi-bin\n\nHR Handbook, Employee Handbook, HR, Human Resources, HR Professionals, legal, \n",
     "robotsSwitcher": "on",
     "siteUrl": "",
@@ -32,7 +32,9 @@
     "favicon": "",
     "noImageResize": "",
     "google-analytics": "",
-    "cookiesAlert": ""
+    "cookiesAlert": "",
+    "path": "@PROJECT_PATH@",
+    "screenshot": "screenshot.png"
   },
   "pages": {
     "index.html": {
@@ -90,7 +92,7 @@
             "image": {
               "active": true,
               "width": 1400,
-              "src": "@PROJECT_PATH@/assets/images/hrhandbookcover-cut-959x201.png",
+              "src": "@PROJECT_PATH@/assets/images/hrhandbookcover-cut-959x201-min-959x201.png",
               "link": "https://mobirise.com",
               "alt": "",
               "title": ""
@@ -197,7 +199,7 @@
           "list2": "<ul class=\"list-group list-group-flush\"><li class=\"list-group-item\"><b>Fully-tailored</b> just for your organisation</li><li class=\"list-group-item\">Select the sections based on your <b>requirements</b></li><li class=\"list-group-item\"><b>Custom designs</b>, pages and layouts</li><li class=\"list-group-item\">Fully <b>Digital</b>, <b>Interactive</b>, <b>Portal</b> versions Available!</li></ul>",
           "list3": "<ul class=\"list-group list-group-flush\"><li class=\"list-group-item\"><b>HR Industy</b>&nbsp;<b>Expert</b></li><li class=\"list-group-item\"><b>&nbsp;HR Director of MNC&nbsp;</b>Level of Experience</li><li class=\"list-group-item\">Provides&nbsp;<b>Training</b>, <b>Review</b> Existing Handbooks, Design <b>Solutions</b> and more!</li></ul>",
           "list4": "<ul class=\"list-group list-group-flush\"><li class=\"list-group-item\"><b>Unlimited</b> Projects</li><li class=\"list-group-item\"><b>Unlimited</b> Images</li><li class=\"list-group-item\"><b>24/7</b> Support</li></ul>",
-          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary-outline btn-primary\">BUY NOW</a>",
+          "button1": "<a data-app-btn=\"true\" href=\"index.html\" class=\"btn btn-primary-outline btn-primary\" data-toolbar=\"-mbrBtnMove\">BUY NOW</a>  ",
           "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary-outline btn-primary\" data-toolbar=\"-mbrBtnMove\">Contact</a>",
           "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary-outline btn-primary\" data-toolbar=\"-mbrBtnMove\">Engage us</a>",
           "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary-outline btn-primary\">BUY NOW</a>",
@@ -229,7 +231,7 @@
           },
           "title": "Ready to get started?",
           "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos quaerat omnis amet accusantium accusamus quidems?",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-black-outline\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">view Samples</a><a data-app-btn=\"true\" class=\"btn btn-danger\" href=\"https://mobirise.com\">read more</a>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-black-outline\" href=\"index.html\" data-toolbar=\"-mbrBtnMove\">view Samples</a><a data-app-btn=\"true\" class=\"btn btn-danger\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">read more</a>",
           "alias": "colorm/components",
           "_tags": [
             "Theme"
@@ -450,10 +452,12 @@
                   "image": {
                     "src": "@PROJECT_PATH@/assets/images/face1.jpg",
                     "class": "img-circle",
-                    "link": "https://mobirise.com",
+                    "link": "",
                     "height": 160,
                     "width": 160,
-                    "active": true
+                    "active": true,
+                    "alt": "",
+                    "title": ""
                   }
                 }
               },
@@ -466,10 +470,12 @@
                   "image": {
                     "src": "@PROJECT_PATH@/assets/images/face2.jpg",
                     "class": "img-circle",
-                    "link": "https://mobirise.com",
+                    "link": "",
                     "height": 160,
                     "width": 160,
-                    "active": true
+                    "active": true,
+                    "alt": "",
+                    "title": ""
                   }
                 }
               },
@@ -482,10 +488,12 @@
                   "image": {
                     "src": "@PROJECT_PATH@/assets/images/face3.jpg",
                     "class": "img-circle",
-                    "link": "https://mobirise.com",
+                    "link": "",
                     "height": 160,
                     "width": 160,
-                    "active": true
+                    "active": true,
+                    "alt": "",
+                    "title": ""
                   }
                 }
               },
@@ -498,10 +506,12 @@
                   "image": {
                     "src": "@PROJECT_PATH@/assets/images/face4.jpg",
                     "class": "img-circle",
-                    "link": "https://mobirise.com",
+                    "link": "",
                     "height": 160,
                     "width": 160,
-                    "active": true
+                    "active": true,
+                    "alt": "",
+                    "title": ""
                   }
                 }
               }
