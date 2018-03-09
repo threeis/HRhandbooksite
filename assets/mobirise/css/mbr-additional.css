@@ -774,3 +774,68 @@ blockquote {
 #footer2-c .mbr-section-text {
   color: #fff;
 }
+#call2-j .display-1 {
+  font-weight: 700;
+  color: #222;
+}
+#call2-j .lead {
+  color: #222;
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+#call2-j .mbr-section-title {
+  font-size: 84px;
+}
+#features16-l .mbr-section-title {
+  font-weight: 700;
+  letter-spacing: .5vw;
+  text-transform: uppercase;
+}
+#features16-l .mbr-section-subtitle {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #fff;
+}
+#footer2-f .mbr-section-text {
+  color: #fff;
+}
+#shop1-i .galleryItem h4:hover {
+  color: #f39c12;
+}
+#shop1-i .mbr-gallery-filter ul li.active {
+  color: #f39c12;
+}
+#shop1-i .mbr-gallery-filter ul li:hover {
+  color: #f39c12;
+}
+#shop1-i .mbr-gallery-filter ul li:before {
+  background: #f39c12;
+}
+#shop1-i .min-toggle:hover,
+#shop1-i .max-toggle:hover {
+  background-color: #f39c12;
+}
+#shop1-i .shop-title {
+  font-family: Arvo;
+}
+#shop1-i .categories-titles .mbr-gallery-filter ul li {
+  font-family: Arvo;
+}
+#shop1-i .max-input {
+  font-family: Arvo;
+}
+#shop1-i .min-input {
+  font-family: Arvo;
+}
+#shop1-i .item-title {
+  font-family: Arvo;
+}
+#shop1-i .card-description {
+  font-family: Open Sans;
+}
+#shop1-i .shop-item-price {
+  font-family: Montserrat;
+}
+#shop1-i H3 {
+  text-align: center;
+}

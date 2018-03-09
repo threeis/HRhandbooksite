@@ -23,7 +23,7 @@
       "additionalSetColors": []
     },
     "versionFirst": "4.5.2",
-    "uniqCompNum": 15,
+    "uniqCompNum": 23,
     "versionPublish": "4.6.3",
     "robotsText": "User-agent: *\nDisallow: /cgi-bin\n\nHR Handbook, Employee Handbook, HR, Human Resources, HR Professionals, legal, \n",
     "robotsSwitcher": "on",
@@ -34,7 +34,10 @@
     "google-analytics": "",
     "cookiesAlert": "",
     "path": "@PROJECT_PATH@",
-    "screenshot": "screenshot.png"
+    "screenshot": "screenshot.png",
+    "mcShopcart": {
+      "email": "payto@3pointe.com.sg"
+    }
   },
   "pages": {
     "index.html": {
@@ -115,9 +118,11 @@
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-danger btn-lg\" href=\"https://mobirise.com\">download it</a>",
           "media1": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/face1.jpg",
-              "link": "https://mobirise.com",
-              "active": true
+              "src": "@PROJECT_PATH@/assets/images/rose-2258x1500.jpg",
+              "link": "",
+              "active": true,
+              "alt": "",
+              "title": ""
             }
           },
           "media2": {
@@ -140,6 +145,46 @@
           ],
           "_name": "header8",
           "_anchor": "header8-1"
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "showSubtitle": true,
+            "showText": true,
+            "showButtons": false,
+            "bgCardImage": "@PROJECT_PATH@/assets/images/lee-tee-ling-copy-2-277x329.jpg",
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/grass.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#ecf0f1",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=HnPYeBJ9JCc"
+            },
+            "overlay": true,
+            "overlayColor": "#bdc3c7",
+            "overlayOpacity": 0.8
+          },
+          "arrowDown": "@PROJECT_PATH@/assets/images/arrowdown.png",
+          "media": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/features/03.jpg",
+              "class": ""
+            }
+          },
+          "title": "Lee Tee Ling",
+          "subtitle": "Founder and Influencer at The HR Handbook&nbsp;",
+          "text": "\"As a HR practitioner of many years, I believe that the best gift and contribution I can give to the industry is to help every organisation craft and maintain their very own HR Handbook. Employers, employees and HR professionals have all expressed how it has made their processes simpler, efficient and effective!\"<br>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">learn more</a>",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "testimonials3",
+          "_anchor": "testimonials3-6"
         },
         {
           "_styles": {
@@ -199,9 +244,9 @@
           "list2": "<ul class=\"list-group list-group-flush\"><li class=\"list-group-item\"><b>Fully-tailored</b> just for your organisation</li><li class=\"list-group-item\">Select the sections based on your <b>requirements</b></li><li class=\"list-group-item\"><b>Custom designs</b>, pages and layouts</li><li class=\"list-group-item\">Fully <b>Digital</b>, <b>Interactive</b>, <b>Portal</b> versions Available!</li></ul>",
           "list3": "<ul class=\"list-group list-group-flush\"><li class=\"list-group-item\"><b>HR Industy</b>&nbsp;<b>Expert</b></li><li class=\"list-group-item\"><b>&nbsp;HR Director of MNC&nbsp;</b>Level of Experience</li><li class=\"list-group-item\">Provides&nbsp;<b>Training</b>, <b>Review</b> Existing Handbooks, Design <b>Solutions</b> and more!</li></ul>",
           "list4": "<ul class=\"list-group list-group-flush\"><li class=\"list-group-item\"><b>Unlimited</b> Projects</li><li class=\"list-group-item\"><b>Unlimited</b> Images</li><li class=\"list-group-item\"><b>24/7</b> Support</li></ul>",
-          "button1": "<a data-app-btn=\"true\" href=\"index.html\" class=\"btn btn-primary-outline btn-primary\" data-toolbar=\"-mbrBtnMove\">BUY NOW</a>  ",
-          "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary-outline btn-primary\" data-toolbar=\"-mbrBtnMove\">Contact</a>",
-          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary-outline btn-primary\" data-toolbar=\"-mbrBtnMove\">Engage us</a>",
+          "button1": "<a data-app-btn=\"true\" href=\"page1.html\" class=\"btn btn-primary-outline btn-primary\" data-toolbar=\"-mbrBtnMove\">See and Buy</a>  ",
+          "button2": "<a data-app-btn=\"true\" href=\"index.html#form2-8\" class=\"btn btn-primary-outline btn-primary\" data-toolbar=\"-mbrBtnMove\">Contact</a>",
+          "button3": "<a data-app-btn=\"true\" href=\"index.html#form2-8\" class=\"btn btn-primary-outline btn-primary\" data-toolbar=\"-mbrBtnMove\">Engage us</a>",
           "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary-outline btn-primary\">BUY NOW</a>",
           "_tags": [
             "Theme"
@@ -231,7 +276,7 @@
           },
           "title": "Ready to get started?",
           "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos quaerat omnis amet accusantium accusamus quidems?",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-black-outline\" href=\"index.html\" data-toolbar=\"-mbrBtnMove\">view Samples</a><a data-app-btn=\"true\" class=\"btn btn-danger\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">read more</a>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-black-outline\" href=\"assets/files/SingaporeSampleHRhandbook.pdf\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">view Sample</a>",
           "alias": "colorm/components",
           "_tags": [
             "Theme"
@@ -420,8 +465,8 @@
           },
           "_params": {
             "showTitle": true,
-            "showSubtitle": true,
-            "showImages": true,
+            "showSubtitle": false,
+            "showImages": false,
             "showName": true,
             "showBio": true,
             "autoplay": true,
@@ -445,12 +490,12 @@
             "slides": [
               {
                 "active": true,
-                "text": "<p>“A major turning point in the history of early philosophical science was the controversial”</p>",
-                "authorName": "John Smith",
+                "text": "<p>\"The employee manuals establish information about organisation’s policies. This helps employees build confidence while they learn what kind of treatment they can expect in the organisation.\"</p>",
+                "authorName": "John Tan",
                 "authorBio": "HR Director",
                 "media": {
                   "image": {
-                    "src": "@PROJECT_PATH@/assets/images/face1.jpg",
+                    "src": "@THEME_PATH@/components/_images/face1.jpg",
                     "class": "img-circle",
                     "link": "",
                     "height": 160,
@@ -463,12 +508,12 @@
               },
               {
                 "active": false,
-                "text": "<p>“A major tturning point in the history of early philosophical science was the controversial ”</p>",
-                "authorName": "Abanoub S.",
+                "text": "<p>“My handbook tells me where to go and whom to seek out when I have a problem at work. I have my questions easily answered without having to approach management everytime.\"</p>",
+                "authorName": "Huyen S.",
                 "authorBio": "Employee",
                 "media": {
                   "image": {
-                    "src": "@PROJECT_PATH@/assets/images/face2.jpg",
+                    "src": "@THEME_PATH@/components/_images/face2.jpg",
                     "class": "img-circle",
                     "link": "",
                     "height": 160,
@@ -481,12 +526,12 @@
               },
               {
                 "active": false,
-                "text": "<p>“A major tturning point in the history of early philosophical science was the controversial ”</p>",
-                "authorName": "Suffian A.",
+                "text": "<p>“Clear policies and procedures can prevent liability. A well-structured handbook can protect both the employee and the employer as it set forth certain rules and structures whenever an issue arises.\"</p><p><br></p>",
+                "authorName": "Suffian F.",
                 "authorBio": "Government Department Official",
                 "media": {
                   "image": {
-                    "src": "@PROJECT_PATH@/assets/images/face3.jpg",
+                    "src": "@THEME_PATH@/components/_images/face3.jpg",
                     "class": "img-circle",
                     "link": "",
                     "height": 160,
@@ -499,12 +544,12 @@
               },
               {
                 "active": false,
-                "text": "<p>\"A major tturning point in the history of early philosophical science was the controversial \"</p>",
-                "authorName": "Alex Higgins",
-                "authorBio": "USER",
+                "text": "<p>\"The handbook set guidelines for everyone to follow. The handbook also inform employees of statutory laws regarding workplace behaviour with co-workers and management. This prevent workplace conflicts and legal disputes.<span style=\"background-color: transparent;\">\"</span></p>",
+                "authorName": "Chew T.W.",
+                "authorBio": "Business Owner",
                 "media": {
                   "image": {
-                    "src": "@PROJECT_PATH@/assets/images/face4.jpg",
+                    "src": "@THEME_PATH@/components/_images/face4.jpg",
                     "class": "img-circle",
                     "link": "",
                     "height": 160,
@@ -519,7 +564,7 @@
             "controlBgLeft": "@PROJECT_PATH@/assets/images/left.png",
             "controlBgRight": "@PROJECT_PATH@/assets/images/right.png"
           },
-          "title": "What our fantastic clients say",
+          "title": "What Professionals say",
           "subtitle": "Our clients can vouch for us!",
           "alias": "colorm/components",
           "_tags": [
@@ -527,46 +572,6 @@
           ],
           "_name": "testimonials1",
           "_anchor": "testimonials1-5"
-        },
-        {
-          "_params": {
-            "showTitle": true,
-            "showSubtitle": true,
-            "showText": true,
-            "showButtons": false,
-            "bgCardImage": "@PROJECT_PATH@/assets/images/boy.jpg",
-            "paddingTop": 3,
-            "paddingBottom": 3,
-            "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/grass.jpg",
-            "parallax": true,
-            "bgColorRadio": false,
-            "bgColor": "#ecf0f1",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=HnPYeBJ9JCc"
-            },
-            "overlay": true,
-            "overlayColor": "#233f5b",
-            "overlayOpacity": 0.8
-          },
-          "arrowDown": "@PROJECT_PATH@/assets/images/arrowdown.png",
-          "media": {
-            "image": {
-              "src": "@THEME_PATH@/components/_images/features/03.jpg",
-              "class": ""
-            }
-          },
-          "title": "Tham JELEV",
-          "subtitle": "Founder and Influencer at The HR Handbook&nbsp;",
-          "text": "\"As a HR practitioner of many years, I believe that the best gift and contribution I can give to the industry is to help every organisation craft and maintain their very own HR Handbook. Employers, employees and HR professionals have all expressed how it has made their processes simpler, efficient and effective!\"",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">learn more</a>",
-          "alias": "colorm/components",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "testimonials3",
-          "_anchor": "testimonials3-6"
         },
         {
           "_styles": {
@@ -596,9 +601,9 @@
           "title": "CONTACT FORM",
           "subtitle": "Shape your organisations future with a new or updated Hr handbook.",
           "text": "Let us know how we can help!",
-          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\">CONTACT US</a>",
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">CONTACT US</a>",
           "form": {
-            "action": "aldrintee@gmail.com",
+            "action": "hrhandbook@3pointe.com.sg",
             "alerts": {
               "success": "Thanks for filling out form!"
             },
@@ -656,12 +661,12 @@
             "overlayColor": "#35a0c6",
             "overlayOpacity": 0.4,
             "facebook": true,
-            "twitter": true,
+            "twitter": false,
             "google": true,
             "vkontakte": false,
             "odnoklassniki": false
           },
-          "text": "SHARE THIS PAGE!",
+          "text": "SHARE THIS PAGE",
           "_tags": [
             "Theme"
           ],
@@ -686,13 +691,471 @@
             "overlayColor": "#444444",
             "overlayOpacity": 0.8
           },
-          "text": "Copyright (c) 2018&nbsp;<a href=\"http://mobirise.com\">The HR Handbook People</a>&nbsp;.",
+          "text": "<a href=\"#top\">HOME</a> | <a href=\"page1.html\">BUY NOW</a><br>Copyright (c) 2018&nbsp;<a href=\"http://mobirise.com\">The HR Handbook People</a>&nbsp;.",
           "alias": "colorm/components",
           "_tags": [
             "Theme"
           ],
           "_name": "footer2",
           "_anchor": "footer2-c"
+        }
+      ]
+    },
+    "page1.html": {
+      "settings": {
+        "title": "Buy Handbooks",
+        "order": 1
+      },
+      "components": [
+        {
+          "_styles": {
+            ".display-1": {
+              "font-weight": "700",
+              "color": "#222"
+            },
+            ".lead": {
+              "color": "#222",
+              "text-transform": "uppercase",
+              "margin-bottom": "0"
+            },
+            ".mbr-section-title": {
+              "font-size": "84px"
+            }
+          },
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/header/02.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#ecf0f1",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=HnPYeBJ9JCc"
+            },
+            "overlay": true,
+            "overlayColor": "#ecf0f1",
+            "overlayOpacity": 0.9
+          },
+          "title": "READY-MADE <br>HR HANDBOOKS",
+          "text": "For Immediate Download and Use",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary btn-lg\" href=\"assets/files/SingaporeSampleHRhandbook.pdf\" data-toolbar=\"-mbrBtnMove\">see SAMPLE</a>",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "call2",
+          "_anchor": "call2-j"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title": {
+              "font-weight": "700",
+              "letter-spacing": ".5vw",
+              "text-transform": "uppercase"
+            },
+            ".mbr-section-subtitle": {
+              "text-transform": "uppercase",
+              "letter-spacing": "2px",
+              "color": "#fff"
+            }
+          },
+          "_params": {
+            "showTitle": true,
+            "showImages": true,
+            "showTitles": true,
+            "ShowTexts": true,
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "columns": 4,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/features/03.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "bgColor": "#f9593a",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#f9593a",
+            "overlayOpacity": 0.9
+          },
+          "media1": {
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features16",
+              "linkInNewWindow": false,
+              "name": "flash",
+              "family": "FontAwesome",
+              "active": true,
+              "link": "",
+              "size": 0,
+              "color": "#fc7a60"
+            }
+          },
+          "media2": {
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features16",
+              "linkInNewWindow": false,
+              "name": "file-o",
+              "family": "FontAwesome",
+              "active": true,
+              "link": "",
+              "size": 0,
+              "color": "#fc7a60"
+            }
+          },
+          "media3": {
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features16",
+              "linkInNewWindow": false,
+              "name": "asl-interpreting",
+              "family": "FontAwesome",
+              "active": true,
+              "link": "",
+              "size": 0,
+              "color": "#fc7a60"
+            }
+          },
+          "media4": {
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features16",
+              "linkInNewWindow": false,
+              "name": "thumbs-o-up",
+              "family": "FontAwesome",
+              "active": true,
+              "link": "",
+              "size": 0,
+              "color": "#fc7a60"
+            }
+          },
+          "media5": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-features16",
+              "name": "globe",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#fc7a60",
+              "family": "cm-icon"
+            }
+          },
+          "media6": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-features16",
+              "name": "compass",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#fc7a60",
+              "family": "cm-icon"
+            }
+          },
+          "title": "Features",
+          "title1": "Bootstrap 4",
+          "subtitle1": "Quick DELIVERY",
+          "caption1": "Once we receive your payment, you will receive a copy of your handbook within 24hrs.",
+          "title2": "Responsive",
+          "subtitle2": "EDITABLE WORD Format",
+          "caption2": "The HR Handbook you purchase from us will be in editable word document format. Which means you can change and edit any part of it as you wish!",
+          "title3": "Web Fonts",
+          "subtitle3": "EFFECTIVE Communication",
+          "caption3": "HR Handbooks ensure clear and consistent communication between employers and employees, increasing productivity and security!",
+          "title4": "Unlimited Sites",
+          "subtitle4": "Quality Assured",
+          "caption4": "As HR Practitioners ourselves, we can assure that the handbooks are of high quality and will ultimately be a crucial and useful tool for you and your organisation.",
+          "title5": "Trendy Website Blocks",
+          "subtitle5": "Choose from the large selection of blocks",
+          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+          "title6": "Host Anywhere",
+          "subtitle6": "Don't limit yourself to just one platform",
+          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
+          "buttons": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-lg btn-primary\">learn more</a>",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "features16",
+          "_anchor": "features16-l"
+        },
+        {
+          "_styles": {
+            ".mbr-section-text": {
+              "color": "#fff"
+            }
+          },
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#323232",
+            "overlay": true,
+            "overlayColor": "#444444",
+            "overlayOpacity": 0.8
+          },
+          "text": "<a href=\"#top\">HOME</a> | <a href=\"page1.html\">BUY NOW</a><br>Copyright (c) 2018&nbsp;<a href=\"http://mobirise.com\">The HR Handbook People</a>&nbsp;.",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer2",
+          "_anchor": "footer2-f"
+        },
+        {
+          "_styles": {
+            ".galleryItem h4:hover": {
+              "color": "@primaryColor"
+            },
+            ".mbr-gallery-filter ul li.active": {
+              "color": "@primaryColor"
+            },
+            ".mbr-gallery-filter ul li:hover": {
+              "color": "@primaryColor"
+            },
+            ".mbr-gallery-filter ul li:before": {
+              "background": "@primaryColor"
+            },
+            ".min-toggle:hover, .max-toggle:hover": {
+              "background-color": "@primaryColor"
+            },
+            ".shop-title": {
+              "font-family": "@titleFont"
+            },
+            ".categories-titles .mbr-gallery-filter ul li": {
+              "font-family": "@titleFont"
+            },
+            ".max-input": {
+              "font-family": "@titleFont"
+            },
+            ".min-input": {
+              "font-family": "@titleFont"
+            },
+            ".item-title": {
+              "font-family": "@titleFont"
+            },
+            ".card-description": {
+              "font-family": "@textFont"
+            },
+            ".shop-item-price": {
+              "font-family": "@subtitleFont"
+            },
+            "H3": {
+              "text-align": "center"
+            }
+          },
+          "_params": {
+            "showTitle": true,
+            "showSidebar": true,
+            "showSortButtons": true,
+            "showBestSellers": true,
+            "priceRange": true,
+            "filter": true,
+            "showStars": true,
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgColor": "#ffffff",
+            "filterBgColor": false,
+            "fontHoverColor": "@primaryColor",
+            "mainTitle": "@titleFont",
+            "mainSubTitle": "@subtitleFont",
+            "mainText": "@textFont",
+            "images": [
+              {
+                "tags": "Handbook, Generic",
+                "image": "@PROJECT_PATH@/assets/images/generichrhandbook-959x1280.png",
+                "thumb": "@PROJECT_PATH@/assets/images/generichrhandbook-959x1280-800x1067.png",
+                "starsImg": "@PROJECT_PATH@/assets/images/4.png",
+                "stars": "@PROJECT_PATH@/assets/images/4.png",
+                "bestSeller": true,
+                "itemTitle": "Generic HR Handbook",
+                "itemSubtitle": "For Most Business and Organisations.",
+                "itemDescription": "<p>Sections include<br></p><ul><li>Forward<br></li> <li>Terms and Conditions</li> <li>Rules and Procedures</li><li>Company Policies</li></ul><p><br></p>The Handbook can be used as a starting reference for developing your own. Comes in editable Microsoft Word format.<p></p><p><br> Product code: <b>gen1</b></p>",
+                "itemPriceTitle": "From: ",
+                "itemPrice": "$1000.00",
+                "onsale": "SALE 50% OFF",
+                "button": "<a data-app-btn=\"true\" href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_cart&amp;amount=1000&amp;item_name=HR+Handbook+(Generic)&amp;currency_code=USD\" class=\"btn btn-primary btn-primary-outline\">Add to cart</a>",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Handbook, By Country",
+                "bestSeller": true,
+                "itemTitle": "HR Handbook - Singapore Edition",
+                "itemSubtitle": "For Singapore Companies and Organisations",
+                "itemDescription": "<p>Contents<br><br></p><ul><li>Ministry of Manpower Laws</li><li>Company Policies<br></li> <li>Rules and Regulations</li></ul> <br>This is a handbook specially crafted for the Singapore context.<br> <p></p><p><br></p><p>Product code: <b>hrsin1</b></p>",
+                "itemPriceTitle": "From: ",
+                "itemPrice": "$1000.00",
+                "onsale": "SALE 50% OFF",
+                "button": "<a data-app-btn=\"true\" href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_cart&amp;amount=1000&amp;item_name=HR+Handbook+-+Singapore+Edition&amp;currency_code=USD\" class=\"btn btn-primary btn-primary-outline\">add to cart</a>",
+                "image": "@PROJECT_PATH@/assets/images/510px-flag_of_singapore.svg-510x340.png",
+                "thumb": "@PROJECT_PATH@/assets/images/510px-flag-of-singapore.svg-510x340-510x340.png",
+                "starsImg": "@PROJECT_PATH@/assets/images/5.png",
+                "stars": "@PROJECT_PATH@/assets/images/5.png",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Handbook, By Country",
+                "bestSeller": false,
+                "itemTitle": "HR Handbook - Malaysia Edition",
+                "itemSubtitle": "For Malaysian Companies and Organisations",
+                "itemDescription": "<p>Contents</p><p><br></p><ul><li>Forward</li><li>Terms and Conditions</li><li>Rules and Procedures</li><li>Company Policies</li></ul><div><br></div><div>This is a handbook specially crafted for the Singapore context.</div><div><br></div><div>Product code: <b>hrmy1</b><br></div><div><p></p></div>",
+                "itemPriceTitle": "From: ",
+                "itemPrice": "$1000.00",
+                "onsale": "SALE 50% OFF",
+                "button": "<a data-app-btn=\"true\" href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_cart&amp;amount=1000&amp;item_name=HR+Handbook+-+Malaysia+Edition&amp;currency_code=USD\" class=\"btn btn-primary btn-primary-outline\">add to cart</a>",
+                "image": "@PROJECT_PATH@/assets/images/2800px-flag_of_malaysia.svg-2000x1000.png",
+                "thumb": "@PROJECT_PATH@/assets/images/2800px-flag-of-malaysia.svg-2000x1000-800x400.png",
+                "starsImg": "@PROJECT_PATH@/assets/images/3.png",
+                "stars": "@PROJECT_PATH@/assets/images/3.png",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Handbook, By Country",
+                "bestSeller": false,
+                "itemTitle": "HR Handbook - Philippines Edition",
+                "itemSubtitle": "For Companies and Organisations in the Philippines",
+                "itemDescription": "<p>Contents</p><p><br></p><ul><li>Forward</li><li>Terms and Conditions</li><li>Rules and Procedures</li><li>Company Policies</li></ul> <div><br></div><div>This is a handbook specially crafted for The Philippines context.<br><br><br> Product code: <b>340DDF5p</b></div><p></p>",
+                "itemPriceTitle": "From: ",
+                "itemPrice": "$1000.00",
+                "onsale": "SALE 50% OFF",
+                "button": "<a data-app-btn=\"true\" href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_cart&amp;amount=1.0&amp;item_name=HR+Handbook+-+Philippines+Edition&amp;currency_code=USD\" class=\"btn btn-primary btn-primary-outline\">ADD To CART</a>",
+                "image": "@PROJECT_PATH@/assets/images/flag_of_the_philippines-1280x640.png",
+                "thumb": "@PROJECT_PATH@/assets/images/flag-of-the-philippines-1280x640-800x400.png",
+                "starsImg": "@PROJECT_PATH@/assets/images/3.png",
+                "stars": "@PROJECT_PATH@/assets/images/3.png",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Handbook, By Country",
+                "bestSeller": false,
+                "itemTitle": "HR Handbook - Thailand Edition",
+                "itemSubtitle": "For Business and Organisations based in Thailand",
+                "itemDescription": "Contents<br><ul><li>Forward</li><li>Terms and Conditions</li><li>Rules and Procedures</li><li>Company Policies</li></ul><div><br></div><div>This is a handbook specially crafted for Thailand context.<br><br> Product code: <b>hrthai1</b></div>",
+                "itemPriceTitle": "From: ",
+                "itemPrice": "$1000.00",
+                "onsale": "SALE 50% OFF",
+                "button": "<a data-app-btn=\"true\" href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_cart&amp;amount=1000&amp;item_name=HR+Handbook+-+Thailand+Edition&amp;currency_code=USD\" class=\"btn btn-primary btn-primary-outline\">add to cart</a>",
+                "image": "@PROJECT_PATH@/assets/images/900px-flag_of_thailand.svg-900x600.png",
+                "thumb": "@PROJECT_PATH@/assets/images/900px-flag-of-thailand.svg-900x600-800x533.png",
+                "starsImg": "@PROJECT_PATH@/assets/images/4.png",
+                "stars": "@PROJECT_PATH@/assets/images/4.png",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Handbook, By Country",
+                "bestSeller": false,
+                "itemTitle": "HR Handbook - Indonesia Edition",
+                "itemSubtitle": "For Companies and Organisations in Indonesia",
+                "itemDescription": "Seen on photo. Check our gallery for more photos.<br><br><ul><li>Forward</li><li>Terms and Conditions</li><li>Rules and Procedures</li><li>Company Policies</li></ul><div><br></div><div>This is a handbook specially crafted for Indonesian context.<br><br> Product code: <b>hrindo1</b></div>",
+                "itemPriceTitle": "From: ",
+                "itemPrice": "$1000.00",
+                "onsale": "SALE 50% OFF",
+                "button": "<a data-app-btn=\"true\" href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_cart&amp;amount=1000&amp;item_name=HR+Handbook+-+Indonesia&amp;currency_code=USD\" class=\"btn btn-primary btn-primary-outline\">Add to cart</a>",
+                "image": "@PROJECT_PATH@/assets/images/900px-flag_of_indonesia.svg-900x600.png",
+                "thumb": "@PROJECT_PATH@/assets/images/900px-flag-of-indonesia.svg-900x600-800x533.png",
+                "starsImg": "@PROJECT_PATH@/assets/images/3.png",
+                "stars": "@PROJECT_PATH@/assets/images/3.png",
+                "caption": "Type caption here",
+                "active": true
+              },
+              {
+                "tags": "Section only",
+                "bestSeller": true,
+                "itemTitle": "Terms and Conditions of Employment",
+                "itemSubtitle": "Section Only",
+                "itemDescription": "Contains the Section on Terms and Conditions of Employment only<br><ul><li>Annual Leave<br></li><li>Sickness Absence</li><li>Maternity and Paternity Policy</li><li>Parental and Child-care Leave</li><li>Other types of leave</li><li>Extra Hours/Duties</li><li>Medical </li><li>Expenses</li><li>Retirement</li></ul><br> Product code: <b>secterms</b>",
+                "itemPriceTitle": "From: ",
+                "itemPrice": "$400",
+                "onsale": "SALE 50% OFF",
+                "button": "<a data-app-btn=\"true\" href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_cart&amp;amount=400&amp;item_name=Section+-+Terms+%26+Conditions&amp;currency_code=USD\" class=\"btn btn-primary btn-primary-outline btn-primary-outline\">add to cart</a>",
+                "image": "@PROJECT_PATH@/assets/images/sectionconditionsofemploy-959x1280.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/sectionconditionsofemploy-959x1280-800x1067.jpg",
+                "starsImg": "@PROJECT_PATH@/assets/images/3.png",
+                "stars": "@PROJECT_PATH@/assets/images/3.png",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Section only",
+                "bestSeller": false,
+                "itemTitle": "Company Rules and Regulations",
+                "itemSubtitle": "Section only",
+                "itemDescription": "Contains the Section on Company Rules and Regulations Only!&nbsp;<br><ul><li>Annual Leave</li><li>Notification of Sickness Absence/ Medical Certificates/Fitness for Work</li><li> Absence from Work</li><li>Accidents, Infectious or Contagious illness</li><li>Health and Safety</li><li>Work-related injuries</li><li>Job mobility</li><li>Probationary periods</li><li>Office Security</li><li>Change of address</li><li>Office telephones</li><li>Disciplinary Rules and Procedures</li><li>Grievance Procedures</li></ul> <br> Product code: <b>sectrules</b>",
+                "itemPriceTitle": "From: ",
+                "itemPrice": "$400.00",
+                "onsale": "SALE 50% OFF",
+                "button": "<a data-app-btn=\"true\" href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_cart&amp;amount=400&amp;item_name=Section+-+Company+Rules+%26+Regulations&amp;currency_code=USD\" class=\"btn btn-primary btn-primary-outline\">Add to cart</a>",
+                "image": "@PROJECT_PATH@/assets/images/sectiononcompanyrules-959x1280.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/sectiononcompanyrules-959x1280-800x1067.jpg",
+                "starsImg": "@PROJECT_PATH@/assets/images/1.png",
+                "stars": "@PROJECT_PATH@/assets/images/1.png",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Section only",
+                "bestSeller": false,
+                "itemTitle": "Company Policies",
+                "itemSubtitle": "Section Only",
+                "itemDescription": "Contains Section on Company Policies Only.<br><ul><li>Health and Safety </li><li>Equipment Policy</li><li> Repetitive Strain Injury Policy</li><li>Pay Policy</li><li>Equal Opportunities Policy</li><li>Smoking Policy</li><li>Personal Data In Relation To Terms and Conditions Of Employment</li><li>Confidentiality</li></ul><br> Product code: <b>Sectpolicy</b>",
+                "itemPriceTitle": "From: ",
+                "itemPrice": "$400.00",
+                "onsale": "SALE 50% OFF",
+                "button": "<a data-app-btn=\"true\" href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_cart&amp;amount=400&amp;item_name=Section+-+Company+Policy&amp;currency_code=USD\" class=\"btn btn-primary btn-primary-outline\">add to cart</a>",
+                "image": "@PROJECT_PATH@/assets/images/sectionpolicy-959x1280.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/sectionpolicy-959x1280-800x1067.jpg",
+                "starsImg": "@PROJECT_PATH@/assets/images/3.png",
+                "stars": "@PROJECT_PATH@/assets/images/3.png",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Section only",
+                "bestSeller": false,
+                "itemTitle": "Workplace Dispute &amp; Resolution",
+                "itemSubtitle": "Section only",
+                "itemDescription": "Section on Workplace Dispute &amp; Resolution only!<br><ul><li>Termination for Cause </li><li>\rTermination without Cause</li><li>Resignation</li><li>Lay-off</li><li>\rEmployer Property\r</li><li>Harrassment</li><li>Workplace Violence</li><li>Dispute Resolution</li></ul> <br> Product code: <b>secdispute1</b>",
+                "itemPriceTitle": "From: ",
+                "itemPrice": "$400.00",
+                "onsale": "SALE 50% OFF",
+                "button": "<a data-app-btn=\"true\" href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_cart&amp;amount=400&amp;item_name=Section+-+Dispute+Resolution&amp;currency_code=USD\" class=\"btn btn-primary btn-primary-outline\">add to cart</a>",
+                "image": "@PROJECT_PATH@/assets/images/sectiondisputeresolution-959x1280.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/sectiondisputeresolution-959x1280-800x1067.jpg",
+                "starsImg": "@PROJECT_PATH@/assets/images/4.png",
+                "stars": "@PROJECT_PATH@/assets/images/4.png",
+                "caption": "Type caption here",
+                "active": false
+              }
+            ]
+          },
+          "articleLayout": false,
+          "title": "Buy Now!",
+          "filter_by_pu": "<a data-app-btn=\"true\" class=\"btn btn-primary disableSortButton\">Price: low to high</a>",
+          "filter_by_pd": "<a data-app-btn=\"true\" class=\"btn btn-primary disableSortButton\">Price: high to low</a>",
+          "filter_by_d": "<a data-app-btn=\"true\" class=\"btn btn-primary\">Default sorting</a>",
+          "price_range": "<a class=\"btn btn-primary filterPriceRange\">Filter</a>",
+          "price_range_reset": "<a class=\"btn btn-secondary showAll\">Show all</a>",
+          "closeModal": "<a class=\"btn btn-primary modalButton\" mbr-on-click=\"_onCloseModalClick\">Close</a>",
+          "allItem": "All",
+          "sidebar1": "Best Sellers",
+          "sidebar2": "Filter by price",
+          "sidebar3": "Product Categories",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "shop1",
+          "_anchor": "shop1-i"
         }
       ]
     }
