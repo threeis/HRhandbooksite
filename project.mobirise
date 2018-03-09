@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "The HR Handbook",
-    "currentPage": "page1.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "colorm",
       "title": "ColorM",
@@ -29,7 +29,7 @@
     "robotsSwitcher": "on",
     "siteUrl": "",
     "sitemapSwitcherAuto": "on",
-    "favicon": "",
+    "favicon": "@PROJECT_PATH@/assets/images/b-bookmark-16x16.png",
     "noImageResize": "",
     "google-analytics": "",
     "cookiesAlert": "",
@@ -701,7 +701,7 @@
         }
       ]
     },
-    "page1.html": {
+    "buynow.html": {
       "settings": {
         "title": "Buy Handbooks",
         "order": 1
