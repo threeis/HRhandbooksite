@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "The HR Handbook",
-    "currentPage": "index.html",
+    "currentPage": "page1.html",
     "theme": {
       "name": "colorm",
       "title": "ColorM",
@@ -743,7 +743,7 @@
           },
           "title": "READY-MADE <br>HR HANDBOOKS",
           "text": "For Immediate Download and Use",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary btn-lg\" href=\"assets/files/SingaporeSampleHRhandbook.pdf\" data-toolbar=\"-mbrBtnMove\">see SAMPLE</a>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary btn-lg\" href=\"assets/files/SingaporeSampleHRhandbook.pdf\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">see SAMPLE</a>",
           "alias": "colorm/components",
           "_tags": [
             "Theme"
@@ -1023,11 +1023,11 @@
                 "bestSeller": false,
                 "itemTitle": "HR Handbook - Philippines Edition",
                 "itemSubtitle": "For Companies and Organisations in the Philippines",
-                "itemDescription": "<p>Contents</p><p><br></p><ul><li>Forward</li><li>Terms and Conditions</li><li>Rules and Procedures</li><li>Company Policies</li></ul> <div><br></div><div>This is a handbook specially crafted for The Philippines context.<br><br><br> Product code: <b>340DDF5p</b></div><p></p>",
+                "itemDescription": "<p>Contents</p><p><br></p><ul><li>Forward</li><li>Terms and Conditions</li><li>Rules and Procedures</li><li>Company Policies</li></ul> <div><br></div><div>This is a handbook specially crafted for The Philippines context.<br><br><br> Product code: <b>hrph1</b></div><p></p>",
                 "itemPriceTitle": "From: ",
                 "itemPrice": "$1000.00",
                 "onsale": "SALE 50% OFF",
-                "button": "<a data-app-btn=\"true\" href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_cart&amp;amount=1.0&amp;item_name=HR+Handbook+-+Philippines+Edition&amp;currency_code=USD\" class=\"btn btn-primary btn-primary-outline\">ADD To CART</a>",
+                "button": "<a data-app-btn=\"true\" href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_cart&amp;amount=1000&amp;item_name=HR+Handbook+-+Philippines+Edition&amp;currency_code=USD\" class=\"btn btn-primary btn-primary-outline\">ADD To CART</a>",
                 "image": "@PROJECT_PATH@/assets/images/flag_of_the_philippines-1280x640.png",
                 "thumb": "@PROJECT_PATH@/assets/images/flag-of-the-philippines-1280x640-800x400.png",
                 "starsImg": "@PROJECT_PATH@/assets/images/3.png",
@@ -1141,7 +1141,7 @@
           },
           "articleLayout": false,
           "title": "Buy Now!",
-          "filter_by_pu": "<a data-app-btn=\"true\" class=\"btn btn-primary disableSortButton\">Price: low to high</a>",
+          "filter_by_pu": "<a data-app-btn=\"true\" class=\"btn btn-primary disableSortButton\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">Price: low to high</a>",
           "filter_by_pd": "<a data-app-btn=\"true\" class=\"btn btn-primary disableSortButton\">Price: high to low</a>",
           "filter_by_d": "<a data-app-btn=\"true\" class=\"btn btn-primary\">Default sorting</a>",
           "price_range": "<a class=\"btn btn-primary filterPriceRange\">Filter</a>",
